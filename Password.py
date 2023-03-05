@@ -1,7 +1,7 @@
 #Asks for Application name
 #Asks for a username
 #Asks how many characters that are needed
-#Display the Application in the follow: Application - Username - Password
+#Display the Application in the following: Application - Username - Password
 
 import random
 import string
@@ -14,7 +14,7 @@ User = str(input("Your username is: "))#waits for string input
 maxCH = int(input("This is how many charcters I need: "))#waits for int input
 passw = []#empty list, stores the password data temp
 
-if path.exists(file_name) != True:#check to see if the file exist
+if path.exists(file_name) != True:#checks to see if the file exist
     f_pass = open(file=file_name,mode="w+")
     f_pass.close()
 
