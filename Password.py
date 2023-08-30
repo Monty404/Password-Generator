@@ -11,7 +11,7 @@ file_name = "password.txt"
 special_ch = ['!','$','%','&','(',')']#special character list
 app= str(input("The name of the application is: "))#waits for string input
 User = str(input("Your username is: "))#waits for string input
-maxCH = int(input("how many charcters do you need: "))#waits for int input
+maxCH = int(input("how many charcters do you need? (int): "))#waits for int input
 passw = []#empty list, stores the password data temp
 
 if path.exists(file_name) != True:#checks to see if the file exist
